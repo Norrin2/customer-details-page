@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+    width: 100%;
+}
+
+#customerForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+}
+.input-group {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 25vw;
+}
+.input-group label {
+    display: block;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 1em;
+  }

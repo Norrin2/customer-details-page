@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2 class="title">Test Campaign</h2>
+    <div id="customerForm">
+        <div class="input-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" oninput="generateIntroduction()">
+        </div>
+        <div class="input-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" oninput="generateIntroduction()">
+        </div>
+        <div class="input-group">
+            <label for="city">City:</label>
+            <input type="text" id="city" oninput="generateIntroduction()">
+        </div>
+        <div class="input-group">
+            <label for="state">State:</label>
+            <input type="text" id="state" oninput="generateIntroduction()">
+        </div>
+        <div class="input-group">
+            <label for="zip">ZIP:</label>
+            <input type="text" id="zip" oninput="generateIntroduction()">
+        </div>
+        <div class="input-group">
+            <label for="company">Company:</label>
+            <input type="text" id="company" oninput="generateIntroduction()">
+        </div>
+    </div>
+      
+    <div>
+        <h1>Intro</h1>
+        <div id="introductionOutput"></div>  
+    </div>
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Type</th>
+                <th>Topics</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be inserted here -->
+        </tbody>
+    </table>
+    <div id="dispositions">
+        <button type="button">Dispo 1</button>
+        <button type="button">Dispo 2</button>
+        <button type="button">Dispo 3</button>
+        <button type="button">Dispo 4</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
